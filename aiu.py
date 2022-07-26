@@ -1,6 +1,6 @@
 import cv2
 
-camera = cv2.VideoCapture(0)                # カメラCh.(ここでは0)を指定
+camera = cv2.VideoCapture(1)                # カメラCh.(ここでは0)を指定
 
 # 撮影＝ループ中にフレームを1枚ずつ取得（qキーで撮影終了）
 while True:
@@ -32,7 +32,7 @@ cv2.destroyAllWindows()
 16
 import cv2
  
-camera = cv2.VideoCapture(0)                # カメラCh.(ここでは0)を指定
+camera = cv2.VideoCapture(1)                # カメラCh.(ここでは0)を指定//内蔵カメラは'0'、USBでのカメラは'1'
  
 # 撮影＝ループ中にフレームを1枚ずつ取得（qキーで撮影終了）
 while True:
