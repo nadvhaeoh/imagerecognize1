@@ -2,6 +2,8 @@ import cv2
 
 camera = cv2.VideoCapture(1)                # カメラCh.(ここでは0)を指定
 
+#github_test
+
 # 撮影＝ループ中にフレームを1枚ずつ取得（qキーで撮影終了）
 while True:
     ret, frame = camera.read()              # フレームを取得
